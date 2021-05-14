@@ -15,3 +15,7 @@ pretranslate:
      - !ruby/regexp /{%\s?([a-zA-Z0-9\.\-\?\'\"\,\!\s\/]*)\s?%}/
      - !ruby/regexp /{%\s?end([a-zA-Z0-9\.\-\?\'\"\,\!\s]*)\s?%}/
      - !ruby/regexp /{%\s?AssessmentCallout([a-zA-Z0-9\.\-\?\'\"\,\!\s]*)\s?%}/
+segments:
+  ignore_frontmatter_keys:
+  - "subhead"
+  - "masterhead"
